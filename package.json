@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1_node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node 1_node.js",
+    "start2": "node 2_local_modules.js",
+    "start3": "node 4_HTTP_server.js",
+    "start4": "node 5_HTTP_server_exp.js",
+    "start5": "node 7_rest_api.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
